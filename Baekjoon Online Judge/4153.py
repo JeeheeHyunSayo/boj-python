@@ -6,7 +6,7 @@ if __name__ == '__main__':
         a, b, c = map(int, input().split())
         if a==0 and b == 0 and c == 0 : break
         max_val = a
-        if max_val > b and max_val > c:
+        if max_val > b and max_val > c: # 같은 값이 있을 떄
             max_val = a
             if max_val ** 2 == (c**2) + (b**2):
                 print("right")
